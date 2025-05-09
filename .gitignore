@@ -1,0 +1,41 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# production
+/build # This is usually for Create React App, Next.js uses .next/
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+.env.production
+
+# vercel
+.vercel # Note: This is duplicated later, can remove one
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+# .vercel # This is a duplicate
+
+# Next.js specific (including build output)
+/.next/
+/out/
+deploy/.next/
+# If the entire 'deploy' folder is build output and not source code you edit:
+# /deploy/

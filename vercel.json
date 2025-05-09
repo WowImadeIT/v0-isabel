@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "isabel-dictionary",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "NEXT_PUBLIC_GEMINI_API_KEY": "AIzaSyAFMLHxnyJWyzdmXAxwmxTtal-ds3BQTmA"
+  }
+} 
