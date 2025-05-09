@@ -3,13 +3,10 @@
 This repository contains the source code for "Isabel's Dictionary & Thesaurus," a web application designed to provide dictionary definitions and thesaurus entries. The application utilizes React for the frontend and integrates with the Google Gemini Large Language Model (LLM) via its API to fetch and display word information.
 
 The project features a clean user interface with support for both light and dark themes, aiming to offer a straightforward and efficient user experience.
+![Screenshot 2025-05-09 103227](https://github.com/user-attachments/assets/5df6d911-400f-499a-9c6b-9b01651ee15c)
 
-<!--
-## Screenshots (Illustrative)
-(Consider adding actual screenshots of your application here)
-![App Screenshot Light Mode](placeholder_light.png)
-![App Screenshot Dark Mode](placeholder_dark.png)
--->
+![Screenshot 2025-05-09 102820](https://github.com/user-attachments/assets/a16d9c5c-19ea-40d1-94be-ef37bf8fa775)
+
 
 ## Core Features
 
@@ -22,10 +19,10 @@ The project features a clean user interface with support for both light and dark
 ## Technology Stack
 
 *   **Frontend Library:** React.js
-*   **LLM Integration:** Google Gemini API (via the `@google/generative-ai` SDK)
-*   **Initial UI Prototyping (Conceptual):** User interface elements were initially explored using tools like [v0.dev](https://v0.dev).
-*   **Development Environment (Assisted):** Code development was assisted by AI-powered tools such as [Cursor](https://cursor.sh).
-*   **Styling:** Standard CSS.
+*   **LLM Integration:** Google Gemini API 
+*   **Initial UI Prototyping (Conceptual):** User interface elements were initially explored using v0.dev
+*   **Development Environment (Assisted):** Code development was assisted by Cursor
+*   **Styling:** Standard CSS
 
 ## Local Development Setup
 
@@ -68,6 +65,3 @@ To run this application locally, please follow these steps:
 
 This application was developed as a personal project primarily for educational and demonstrative purposes, showcasing the integration of a modern LLM into a web application. While it was created with a specific user in mind, the codebase can serve as a learning resource for those interested in similar React and AI API integrations.
 
-Contributions, bug reports, or suggestions via GitHub Issues are welcome, though active maintenance may vary.
-
----
