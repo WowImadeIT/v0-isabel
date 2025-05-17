@@ -39,3 +39,5 @@ next-env.d.ts
 deploy/.next/
 # If the entire 'deploy' folder is build output and not source code you edit:
 # /deploy/
+# Ignore Vercel CLI metadata
+.vercel/
